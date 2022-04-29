@@ -1,0 +1,41 @@
+*多做一次 4/28
+
+
+class MedianFinder:
+
+    def __init__(self):
+        self.minq = []
+        self.maxq = []
+        
+
+    def addNum(self, num: int) -> None:
+        if len(self.minq) == len(self.maxq):
+            heapq.heappush(self.minq, num)
+            heapq.heappush(self.maxq, -heapq.heappop(self.minq))
+        else:
+            heapq.heappush(self.maxq, -num)
+            heapq.heappush(self.minq, -heapq.heappop(self.maxq)) ##默认大堆的数量比小堆的多 所以从大堆里面提取
+        
+              
+    def findMedian(self) -> float:
+        if len(self.minq) == len(self.maxq):
+            return (self.minq[0] + (-(self.maxq[0])))/2
+        else:
+            return -self.maxq[0]
+
+
+
+note:
+用一个大堆和一个小堆来维持 -> 大堆来维持小的数值,小堆来维持大的数值
+
+example:
+[2, 3, 4] -> [2,3] 为大堆; [4]为小堆 -> 中位数为3 即位 大堆的顶
+
+[1,2,3,4] -> [1,2] 为大堆 [3,4]为小 -> 中位数为(2+3)/2 -> 可以通过大堆的顶和小堆堆顶获取 -> 这里可以提示用大堆和小堆
+
+
+
+
+
+
+
