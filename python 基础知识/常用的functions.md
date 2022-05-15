@@ -1,5 +1,5 @@
 ``
-# 字母大小写问题
+## 字母大小写问题
 - string.upper() #转化string中所有字母大写
 - string.lower() #转化string中所有字母小写
 - string[0].lower() ##如果要只转化一个字母的大/小写利用slicing
