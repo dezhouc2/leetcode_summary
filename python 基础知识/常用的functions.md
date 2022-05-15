@@ -35,6 +35,11 @@ numbers2 = [4,5,6]/
 result = map(lambda x,y:x+y, numbers1,numbers2)/
 print(list(result)) #[5,7,9]
 
+- leetcode的时候遇到的(把每一个string转换为int)
+string1 = "123"/
+result = map(int,string1)/
+print(result) #[1,2,3]
+
 ``
 
 
