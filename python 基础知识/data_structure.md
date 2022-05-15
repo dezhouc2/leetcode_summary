@@ -9,5 +9,11 @@
 
 - non-iterable:
   - number
+    - float
+    - complex
+    - integer
+
+  - boolean
+
 
 ``
