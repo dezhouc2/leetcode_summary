@@ -1,5 +1,5 @@
 ```
-#字母大小写相关的:
+# Alphabet
 string.upper() #转化string中所有字母大写
 
 string.lower() #转化string中所有字母小写
