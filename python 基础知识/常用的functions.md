@@ -1,6 +1,6 @@
 
 ```
-字母大小写相关的:
+#-- 字母大小写相关的:
 upper.() #转化string中所有字母大写
 
 lower.() #转化string中所有字母小写
@@ -8,8 +8,8 @@ lower.() #转化string中所有字母小写
 string[0].lower() ##如果要只转化一个字母的大/小写利用slicing
 
 
-排序:
-#_方法一
+#-- 排序:
+方法一
 #在list原来的基础上sort不额外增加空间即 space complexity为o(1)
 #sort() 有两个变量 一个是key,另外一个是reverse = False(默认)
 list.sort(key = lambda x:x[0], reverse = True)
