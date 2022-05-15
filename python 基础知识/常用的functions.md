@@ -8,8 +8,8 @@
 ## 排序:
 - 方法一:
 在list原来的基础上sort不额外增加空间即 space complexity为o(1)
-sort() 有两个变量 一个是key,另外一个是reverse = False(默认)
-list.sort(key = lambda x:x[0], reverse = True)
+_sort() 有两个变量 一个是key,另外一个是reverse = False(默认)
+_list.sort(key = lambda x:x[0], reverse = True)
 
 - 方法二:
 用额外的空间 即space complexity 为o(n)
@@ -27,7 +27,7 @@ list2 = sorted(list1,key = lambda x:x[1], reverse=True) ##[('c', 3), ('b', 2), (
 ## map()映射:
 - 定义&语法:
 map(function, iteration)
-\nfun: 每一个iteration的元素都经过这个fun的映射
+fun: 每一个iteration的元素都经过这个fun的映射
 iteration: 一个可遍历的object
 return: 输出为一个list
 
