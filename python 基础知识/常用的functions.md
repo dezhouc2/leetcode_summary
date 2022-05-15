@@ -1,4 +1,4 @@
-
+```
 #字母大小写相关的:
 string.upper() #转化string中所有字母大写
 
@@ -27,6 +27,7 @@ list1.sort(key = lambda x:x[1], reverse = True) ##[('c', 3), ('b', 2), ('a', 1)]
 list2 = sorted(list1,key = lambda x:x[1], reverse=True) ##[('c', 3), ('b', 2), ('a', 1)]
 
 
+```
 
 
 
