@@ -8,8 +8,8 @@
 ## 排序:
 - 方法一:
 在list原来的基础上sort不额外增加空间即 space complexity为o(1)
-_sort() 有两个变量 一个是key,另外一个是reverse = False(默认)
-_list.sort(key = lambda x:x[0], reverse = True)
+sort() 有两个变量 一个是key,另外一个是reverse = False(默认)
+list.sort(key = lambda x:x[0], reverse = True)
 
 - 方法二:
 用额外的空间 即space complexity 为o(n)
