@@ -27,7 +27,7 @@ list2 = sorted(list1,key = lambda x:x[1], reverse=True) ##[('c', 3), ('b', 2), (
 ## map()映射:
 - 定义&语法:
 map(function, iteration)
-fun: 每一个iteration的元素都经过这个fun的映射
+\nfun: 每一个iteration的元素都经过这个fun的映射
 iteration: 一个可遍历的object
 return: 输出为一个list
 
