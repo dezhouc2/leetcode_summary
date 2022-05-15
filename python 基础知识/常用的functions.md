@@ -16,7 +16,7 @@ list.sort(key = lambda x:x[0], reverse = True)
 sorted() 有三个变量 要进行排序的iterable,key,reverse
 sored(iterable, key,reverse)
 
-examples:
+-examples:
 #对list1的index1元素进行降序排序
 list1 = [("a",1),("b",2),("c",3)]
 
