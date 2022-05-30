@@ -40,6 +40,12 @@ string1 = "123"/
 result = map(int,string1)/
 print(result) #[1,2,3]
 
+## 把string分割开相同的部分
+- example:
+import textwrap
+word1 = "ab"
+textwrap.wrap(word1, 1) ##  ['a', 'b'] 分割等价的长度为1的string
+
 ``
 
 
