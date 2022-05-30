@@ -47,12 +47,12 @@ word1 = "ab"
 textwrap.wrap(word1, 1) ##  ['a', 'b'] 分割等价的长度为1的string
 
 ## iterative object slicing:
-- List[Initial:End:IndexJump]:
-Lst = [50, 70, 30, 20, 90, 10, 50]
+- List[Initial:End:IndexJump]:\
+Lst = [50, 70, 30, 20, 90, 10, 50]\
 Lst[:] ## [50, 70, 30, 20, 90, 10, 50]
 
 - negative indexes:
-[50, 70, 30, 20, 90, 10, 50]
+[50, 70, 30, 20, 90, 10, 50]\
 -7,  -6, -5, -4, -3, -2, -1
 
 - reversed list using negative integer as IndexJump:
