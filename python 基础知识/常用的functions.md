@@ -51,11 +51,11 @@ textwrap.wrap(word1, 1) ##  ['a', 'b'] 分割等价的长度为1的string
 Lst = [50, 70, 30, 20, 90, 10, 50]\
 Lst[:] ## [50, 70, 30, 20, 90, 10, 50]
 
-- negative indexes:
+- negative indexes:\
 [50, 70, 30, 20, 90, 10, 50]\
 -7,  -6, -5, -4, -3, -2, -1
 
-- reversed list using negative integer as IndexJump:
+- reversed list using negative integer as IndexJump:\
 Lst[::-1] ## [50, 10, 90, 20, 30, 70, 50]\
 bucket = [1,7,6,7]\
 bucket[-2:] ## 从-2开始一直到最后 [6,7]
