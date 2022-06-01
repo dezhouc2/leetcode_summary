@@ -1,4 +1,4 @@
-``
+```python
 ## 字母大小写问题
 - string.upper() #转化string中所有字母大写
 - string.lower() #转化string中所有字母小写
@@ -66,7 +66,7 @@ bucket[-2:] ## 从-2开始一直到最后 [6,7]
 
 
 
-``
+```
 
 
 
