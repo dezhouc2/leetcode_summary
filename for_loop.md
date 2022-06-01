@@ -1,7 +1,9 @@
 ```python
 
+--#
 for loop backward example:
 
+--#
 for i in range(10,0,-1): #从10开始包括10 到1(不包括0本身):
   print(i,end = "") #end in same line
                     #if end with another line then -> end = "\n"
