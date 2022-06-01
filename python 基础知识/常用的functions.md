@@ -6,15 +6,17 @@
 
 
 ## 排序:
-- 方法一:
+- list.sort():
 在list原来的基础上sort不额外增加空间即 space complexity为o(1)\
+list.sort() 只能用于list\
 sort() 有两个变量 一个是key,另外一个是reverse = False(默认)\
 list.sort(key = lambda x:x[0], reverse = True)
 
-- 方法二:
+- sorted():
 用额外的空间 即space complexity 为o(n)\
+对于任何的iterable都可以不只是 list\
 sorted() 有三个变量 要进行排序的iterable,key,reverse\
-sored(iterable, key,reverse)
+sored(iterable, key,reverse)  #reverse == True即从大到小排序, fasle即从小到大排序
 
 - examples:
 #对list1的index1元素进行降序排序
