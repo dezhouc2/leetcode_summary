@@ -18,6 +18,13 @@ list.sort(key = lambda x:x[0], reverse = True) ##这里lambda x:x[0] 为对每�
 sorted() 有三个变量 要进行排序的iterable,key,reverse\
 sored(iterable, key,reverse)  #reverse == True即从大到小排序, fasle即从小到大排序
 
+- quesiton: 如果多个标准的sort? eg:先根据a sort,再根据b sort\
+intervals = [[1,100],[11,22],[1,11],[2,12]]\
+intervals.sort(key=lambda x:(x[0],x[1]))\
+
+print(intervals) # [[1, 11], [1, 100], [2, 12], [11, 22]]
+
+
 - examples:
 #对list1的index1元素进行降序排序
 list1 = [("a",1),("b",2),("c",3)]\
