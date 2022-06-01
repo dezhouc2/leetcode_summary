@@ -10,7 +10,7 @@
 在list原来的基础上sort不额外增加空间即 space complexity为o(1)\
 list.sort() 只能用于list\
 sort() 有两个变量 一个是key,另外一个是reverse = False(默认)\
-list.sort(key = lambda x:x[0], reverse = True)
+list.sort(key = lambda x:x[0], reverse = True) ##这里lambda x:x[0] 为对每一个元素的[0]作为排序的标准
 
 - sorted():
 用额外的空间 即space complexity 为o(n)\
