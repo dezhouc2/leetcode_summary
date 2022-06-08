@@ -1,6 +1,6 @@
 
 ```python
-heapq:\
+heapq:
 *定义:
 1.在python中, heap默认为minheap
 
