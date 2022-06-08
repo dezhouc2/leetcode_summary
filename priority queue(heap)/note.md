@@ -1,5 +1,7 @@
 
-heap:
+```python
+heapq:\
+*定义:
 1.在python中, heap默认为minheap
 
 2.如果想让heap为maxheap -> 只需要把所有的值*-1即可
@@ -18,3 +20,5 @@ heapq.heappush(hp, (value1,value)) #默认根据value1来对比的
 
 time: o(n*logk) -> 如果只需要topk的话
 space:o(n)
+
+```
