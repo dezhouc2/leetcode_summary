@@ -2,6 +2,9 @@
 ```python
 heapq:
 *定义:
+0.分为两个heap(min heap, max heap); Python 默认的是min heap(即树中的父节点总是小于等于其他子节点的值);
+max heap(即树中的父节点总是小于等于其他子节点的值)
+
 1.在python中, heap默认为minheap
 
 2.如果想让heap为maxheap -> 只需要把所有的值*-1即可
