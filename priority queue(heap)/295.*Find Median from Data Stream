@@ -1,4 +1,6 @@
-*多做一次 4/28
+```python
+time: o(logn)
+space: o(n)
 
 
 class MedianFinder:
@@ -35,7 +37,7 @@ example:
 
 
 
-
+```
 
 
 
