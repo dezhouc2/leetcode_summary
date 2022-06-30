@@ -1,0 +1,118 @@
+
+```python
+time:o(n^2) -> every cell
+space:o(k) -> numbers of cell in queue + numbers of cell in hashset
+
+思路: 先用dfs找出任意一个岛屿然后再把这个岛屿 放进queue里面进行bfs 找出最短路径
+
+错误的想法:
+之前直接用for loop来找“1” -> 当岛屿很大的时候且有很多1连通在一起的时候没办法 -> 如果连通在一起即为图应该考虑用dfs
+
+两个版本做法不一样总结:
+用了hashset的版本 时间和空间都比 没用hashset的版本慢 原因是hashset增加了很多判定条件
+
+#用hashset的版本
+class Solution:
+    def shortestBridge(self, grid: List[List[int]]) -> int:
+        
+        # [0,1]
+        # [1,0]
+        
+        # main idea
+        # implmenting dfs to find one of the island 
+        # implementing bfs to find the smallest number
+        
+        row = len(grid)
+        col = len(grid[0])
+        viz = set()
+        queue = []
+        
+        #convert 
+        def dfs(i,j):
+            #return condition 0 <= i< row
+            if 0 <= i < row and 0 <= j < col and (i,j) not in viz and grid[i][j] == 1:
+                
+            
+            #grid[i][j] = 2
+                viz.add((i,j))
+                queue.append((i,j,0))
+                
+            
+                dfs(i+1,j)
+                dfs(i-1,j)
+                dfs(i,j+1)
+                dfs(i,j-1)
+      
+        for i in range(row):
+            for j in range(col):
+                if grid[i][j] == 1:
+                    dfs(i,j)
+       
+                    while queue:
+                        (r,c,count) = queue.pop(0)
+
+                        for x,y in [(r+1,c), (r-1,c), (r,c+1), (r,c-1)]:
+                            if 0 <= x < row and 0 <= y < col:
+                                if grid[x][y] == 1 and (x,y) not in viz:
+                                    return count
+                                
+                                if grid[x][y] == 0 and (x,y) not in viz:
+                                    queue.append((x,y,count+1))
+                                    viz.add((x,y))
+                                    
+ 
+ #不用hashset的版本
+ class Solution:
+    def shortestBridge(self, grid: List[List[int]]) -> int:
+        
+        # [0,1]
+        # [1,0]
+        
+        # main idea
+        # implmenting dfs to find one of the island 
+        # implementing bfs to find the smallest number
+        
+        row = len(grid)
+        col = len(grid[0])
+        #viz = set()
+        queue = []
+        
+        #convert 
+        def dfs(i,j):
+            #return condition 0 <= i< row
+            if 0 <= i < row and 0 <= j < col and grid[i][j] == 1:
+                
+            
+            #grid[i][j] = 2
+                grid[i][j] = 2 
+                queue.append((i,j,0))
+                
+            
+                dfs(i+1,j)
+                dfs(i-1,j)
+                dfs(i,j+1)
+                dfs(i,j-1)
+      
+        for i in range(row):
+            for j in range(col):
+                if grid[i][j] == 1:
+                    dfs(i,j)
+       
+                    while queue:
+                        (r,c,count) = queue.pop(0)
+
+                        for x,y in [(r+1,c), (r-1,c), (r,c+1), (r,c-1)]:
+                            if 0 <= x < row and 0 <= y < col:  ##这里注意 因为这道题是找与另外一个“1”最近的值所以得判断之后再return
+                                if grid[x][y] == 1:
+                                    return count
+                                
+                                if grid[x][y] == 0:
+                                    queue.append((x,y,count+1))
+                                    grid[x][y] = 2
+ 
+ 
+
+
+
+
+```
