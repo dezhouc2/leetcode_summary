@@ -1,0 +1,38 @@
+
+```python
+
+思路:
+all leaf nodes -> 分别对左子树和右子树用dfs 直到找到叶子结点
+通过defaultdict(list) 建立层和层对应的叶子 -> 每一层的对应的叶子为 左子树和右子树的叶子
+
+联系题目:
+1.maximum height
+
+class Solution:
+    def findLeaves(self, root: Optional[TreeNode]) -> List[List[int]]:
+        
+        #all leaf nodes -> 通过calcualte maximum deep来获取
+        output = collections.defaultdict(list)
+    
+        def dfs(node, layer):
+            #dfs输出的条件
+            if not node: 
+                return layer 
+            left = dfs(node.left, layer)
+            right = dfs(node.right, layer)
+            layer = max(left, right)
+            
+            #对每一个layer加上对应的叶子结点
+            output[layer].append(node.val)
+            #因为layer是从0开始 所以最后得加1为最后深度
+            return layer + 1
+
+        dfs(root,0)
+        
+        print(output)
+        
+        return output.values()
+
+
+
+```
