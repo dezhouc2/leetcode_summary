@@ -70,6 +70,13 @@ bucket = [1,7,6,7]\
 bucket[-2:] ## 从-2开始一直到最后 [6,7]
 
 
+--* functools.cache
+usage:
+import functools
+@functools.cache
+
+returning remembered result rather than computing the result again
+purpose: optimzie time and space complexcity
 
 
 
