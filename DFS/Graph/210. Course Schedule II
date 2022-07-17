@@ -1,6 +1,14 @@
 
 ```python
+time:o(E+V) e = numbers of edges, v = numbers of vertices
+space:o(V)
 
+思路:
+对于每一个点建立adj matrix, 然后对于每一个点和这个点的邻居点跑dfs
+
+dfs:
+1.决定是否有cycle
+2.把点的顺序用output list收集起来
 
 
 
