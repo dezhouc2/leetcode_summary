@@ -1,0 +1,16 @@
+
+```python
+
+time:o(N+V) numbers of edges + numbers of nodes
+space:o(N)
+
+思路(比较复杂): 本质上是考察这个图是否有环
+1.建立起邻接矩阵 -> 这个过程中用dfs然后一个一个取消领接矩阵的节点
+
+2.利用set() 来判断是否有环
+
+
+
+
+
+```
