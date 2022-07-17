@@ -1,0 +1,39 @@
+
+
+```python
+time:o(n)
+space:o(n)
+
+思路:
+遍历这个数组每一个partition都要获取这个paritition中所有的字母使得这个字母的start 和这个字母的end都在这个parition中 -> 建立一个dictionary然后这个字母的对应value为这个字母end index
+
+建立一个指针用来判断是否为一个parition -> end
+
+什么时候把这个partition的长度给收集起来? -> 当遍历的指针等于这个parition中判断的指针的时候(同时reset,size/end)
+
+class Solution:
+    def partitionLabels(self, s: str) -> List[int]:
+        
+        dic_ = {}
+        
+        for i in range(len(s)):
+            dic_[s[i]] = i
+        
+        
+        result = []
+        size,end = 0,0
+        
+        for i in range(len(s)):
+            size = size+1
+            end = max(end,dic_[s[i]])
+            
+            if i == end:
+                result.append(size)
+                size = 0
+                end = 0
+        
+        return result
+
+
+
+```
