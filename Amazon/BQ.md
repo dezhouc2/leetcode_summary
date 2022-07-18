@@ -116,6 +116,36 @@ note:
 11 Tell me a time when you dive deep
 
 
+--*:面试coding中可能会用到的:
+1.1 如果你可能会沉默一会，要告诉面试官：
+“Hi, if I am silent for a couple secs/mins, I am just thinking through the question.”
+
+1.2 如果面试官问你这道题是不是做过
+“I do not have the chance to solve exactly question before, but this question is a very typical DFS/BFS/Graph等等 problem. I do prepare because I take this opportunity seriously. I don’t want to waste the opportunity and I don’t waste your time.”
+1.3 如果面试官问到某个你不会的skill/framework/language
+I do not have a chance to go deep about it but I am very interested in growing my skills in this area. I am a fast learner and making the transition won`t be a challenge.
+
+1.4 Coding中可用句子
+Ok. Perfect. Thank you very much!
+Is that a good understanding of it? I am more comfortable with Java. So I will start my method signature with Java.
+So now I have my method signature, I will run a couple of simple examples to illustrate my thoughts.
+What are input/output types? Could I name the variables like....?? Further question: .....(ensure the inputs are valid, form well)
+I think I could break down my pseudo code into this...Does this look like an ok approach?
+4. Question to Ask Interviwers (Google上很多例子，可以自己选择）
+What is your favorite part working here?
+What is your favorite Amazon leadership principle and why?
+What is the team culture like?
+What do you think are the most important qualities for someone to be really successful in this position?
+What are the common career paths in this department?
+What are the biggest challenges the company is facing right now?
+What is the typical day at Amazon?
+5. 结束后
+It’s a pleasure to be here and I am very excited about this opportunity.
+Thank you for giving me this great opportunity to interview today.
+I am very excited to have the opportunity to be interviewed here on Amazon.
+记住说: Have a great day.
+
+
 --*: source
 https://sugarac.gitbooks.io/high-frequency-interview-questions-and-answers/content/bq1.html
 
