@@ -1,18 +1,122 @@
 ```python
 
---*: Leadership Principles(每一个故事都得用STAR的模式描述)
-1.biased for action
+--*: BQ rules
+每一个回答都要用star method 且relate to 1-2个leadership principles
 
-2.ownership
 
-3.delivery(what do I learn from it)
+--*: 14 Leadership Principles
+source: https://www.kraftshala.com/blog/amazon-interview-questions/
 
-4.earn trust
+1.customer obsession (work hard to earn and to keep customer trust, obsess over customers)
+bq example: relates to customer/clients
+Who was your most challenging customer?
+Give me an example of a time when you did not meet a client’s expectation. What happened, and how did you attempt to rectify the situation?
+When you’re working with a large number of customers, it’s tricky to deliver excellent service to them all. So how do you go about prioritizing your customers’ needs?
+Tell the story of the last time you had to apologize to someone.
 
-5.dive deep
+2.ownership (think long-term, not sacrifice long-term for short term, act on half of company not juz team)
+bq examples: 
+Tell me about a time when you had to leave a task unfinished.
+Tell me about a time when you had to work on a project with unclear responsibilities.
 
-6.hard-time(outcome)
+3.Invent and Simplify(invent and make things simple)
+bq examples:
+Tell me about a time when you gave a simple solution to a complex problem.
+Tell me about a time when you invented something.
 
+4.Are Right, A Lot(work to disconfirm their beliefs)
+Tell me about a time when you were wrong
+Tell me about a time when you had to work with incomplete data or information.
+
+5.Learn and Be Curious(never stop learning and be curious)
+Tell me about a time when you influenced a change by only asking questions.
+Tell me about a time when you solved a problem through just superior knowledge or observation.
+
+6.Hire and Develop The Best(for senior role)
+
+7.Insist on the Highest Standards(deliver high standard products)
+Tell me about a time when you couldn’t meet your own expectations on a project.
+Tell me about a time when a team member didn’t meet your expectations on a project.
+
+8. Think Big(think differently to serve customers)
+Tell me about your proudest professional achievement
+Tell me about a time when you went way beyond the scope of the project and delivered.
+
+9. Bias for Action(speed matters, value the risk-taking)
+Describe a time when you saw some problem and took the initiative to correct it rather than waiting for someone else to do it
+Tell me about a time when you took a calculated risk.
+Tell me about a time you needed to get information from someone who wasn’t very responsive. What did you do?
+
+10. Frugality (accomplish more with less)
+Tell me about a time when you had to work with limited time or resources.
+
+11.Earn Trust (speak candidly, treat others respectfully)
+What would you do if you found out that your closest friend at work was stealing?
+Tell me about a time when you had to tell someone a harsh truth.
+
+12. dive deep (stay connected to details)
+Give me two examples of when you did more than what was required in any job experience.
+Tell me about something that you learnt recently in your role.
+
+13. Have Backbone; Disagree and Commit (if the decision is not determined and i think it's disagree, i will challenge;once the decision is determine,
+i will commit wholly)
+Tell me about a time when you did not accept the status quo
+Tell me about an unpopular decision of yours.
+Tell me about a time when you had to step up and disagree with a team member's approach.
+If your direct manager was instructing you to do something you disagreed with, how would you handle it?
+
+14. Deliver Results (deliver products with good quality and timely)
+By providing an example, tell me when you have had to handle a variety of assignments. Describe the results.
+What is the most challenging situation you have ever faced in your life? How did you handle it?
+Give me an example of a time when you were 75% of the way through a project, and you had to pivot strategy–how were you able to make that into a success story?
+
+
+--*: STAR method
+situation: set the scene the give details of the example(在什么情况下)
+
+task: describe what your responsibility was in that situation(任务/责任是什么)
+
+action: explain what steps you took to address it(用了什么行动方式)
+
+result: what outcomes your action achieve(达到了什么结果, 从这个结果中学到了什么)
+
+
+--*: 高频bq问题
+1 introduce yourself
+    I’ve been working on software design and development related work for over 4 years. My experience includes refining and documenting UI requirements, implementing high-level requirements and producing robust solutions within predefined timelines and scope limitations. I'm so passionate about creating great services for customers and I have been enjoying working with customers. I am always happy to learn new  technologies and incorporate them with what I’ve been doing. Keeping learning and being curious always refreshes my mind with better designs and solutions. Once I commit a task, I will work relentlessly to achieve my goals and will alway try to finish it earlier than what I have promised.
+
+note: mention customer obsession,learn and be curious, deliver result
+
+2. Tell me a time when you disagree with your manager/teammate  
+Let me share with you a quick story. ..........介绍背景，说出分歧。然后说自己怎么做，可以是讨论trade off, 可以是坚持高标准..等 结局一定说最后的选择是对的。 It proved to work well.
+
+note:
+
+3. Tell me a time when you received a negative feedback.
+先介绍背景,别人对你哪里不满意了，简单说以下就行，不要说很多别人如何对你不满，也不要sug·ar·coat 说自己其实没错。重点放在自己怎么解决这个问题，以及学到了什么。结果一定是好结果
+
+4. Tell me a time when you came up with a simple solution to solve a problem
+这个问题一定要让面试官信服你说的例子。先说一般的方法很耗时，自己找到一个方法很快就完成并且Deliver 了，而且很稳定，没出过问题，结果要是好的。
+
+5. Tell me your most challenging project/ a time you solved a complex problem
+扣题，怎么复杂，是deadline 紧，还是技术复杂，你怎么做的，学习了新技术，use my priavte time to work on it 等等 最后说结果或者说通过这个process 你学到了什么
+
+
+6. Tell me a time when you missed deadline
+先介绍背景 解释为何会miss 你是怎么把损失降到最低的，最后结果是好的，影响不是很大
+
+7. Biggest mistake or failure
+
+8. Tell me a time when you took on something significant outside your area of responsibility
+
+9. Tell me a time when you take caculated rist
+
+10 Tell me a time when you did something without asking approval from you managerg‍‍‍‌‌‌‌‌‍‌‌‌‌‌‍‍‍‍‍
+
+11 Tell me a time when you dive deep
+
+
+--*: source
 https://sugarac.gitbooks.io/high-frequency-interview-questions-and-answers/content/bq1.html
 
 https://www.1point3acres.com/bbs/thread-526088-1-1.html
