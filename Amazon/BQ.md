@@ -87,19 +87,29 @@ result: what outcomes your action achieve(达到了什么结果, 从这个结果
 
 note: mention customer obsession,learn and be curious, deliver result
 
-2. Tell me a time when you disagree with your manager/teammate  
+2. Tell me a time when you disagree with your manager/teammate
 Let me share with you a quick story. ..........介绍背景，说出分歧。然后说自己怎么做，可以是讨论trade off, 可以是坚持高标准..等 结局一定说最后的选择是对的。 It proved to work well.
 
-note:
+When I worked as an intern at TigerGraph, one of my tasks is to build a graph convolution network to classify classification of nodes in the graph structures. However, my teammate thinks that we should implement graph attentional network. In order to insist the highest standard of our products, I dive up for these two models and figure it out GCN is better. I disconfirm the viewpoint of my teammates. At the end, my model proves to work well and better performances than that of my teammate's
+
+note: disagreee and commit, high standards
 
 3. Tell me a time when you received a negative feedback.
 先介绍背景,别人对你哪里不满意了，简单说以下就行，不要说很多别人如何对你不满，也不要sug·ar·coat 说自己其实没错。重点放在自己怎么解决这个问题，以及学到了什么。结果一定是好结果
+When I was a graduate student, I worked on a team project regarding a website application. My role in this team project is to implement MySQL as the database for this project. I write some very long query statement that has high time complexity(needs a long time to execute and extract the data). The TA for this course provide me a negative feedback regarding some long query statements that I used. I started to dive deep and to try different approaches to sovle time complexity problem. I do some researches and learn some new grammars in SQL that I do not used and learn before. At the end of this project, I improve 20% of time complexity for long SQL to extract the data for this project.
+
+note: dive deep, different thoughts, learn
 
 4. Tell me a time when you came up with a simple solution to solve a problem
 这个问题一定要让面试官信服你说的例子。先说一般的方法很耗时，自己找到一个方法很快就完成并且Deliver 了，而且很稳定，没出过问题，结果要是好的。
+When I worked as a machine learning engineer intern at TigerGraph, one of my tasks is to optimize the loading speed for a large amount of graph datasets which over 100 millions of data. The general way of load that amount of graph datasets is time-consuming and sometimes the CPU will trash and I have to do it all over again. I start to dive deep and try out different approaches and to seek a brand new method that can decrease the loading speed. I figure it out a new method that our team never try before called batch. This method allow a whole dataset to split into several equivalent pieces and to load each of the pieces in order. At the end, we develier the new products using this new technique and we try out thousands of cases before delivered. Eventually, it proves to work better than the general method and more stable.
+
+note: dive deep, different thoughts, new insight
+
 
 5. Tell me your most challenging project/ a time you solved a complex problem
 扣题，怎么复杂，是deadline 紧，还是技术复杂，你怎么做的，学习了新技术，use my priavte time to work on it 等等 最后说结果或者说通过这个process 你学到了什么
+
 
 
 6. Tell me a time when you missed deadline
@@ -111,9 +121,9 @@ note:
 
 9. Tell me a time when you take caculated rist
 
-10 Tell me a time when you did something without asking approval from you managerg‍‍‍‌‌‌‌‌‍‌‌‌‌‌‍‍‍‍‍
+10.Tell me a time when you did something without asking approval from you managerg‍‍‍‌‌‌‌‌‍‌‌‌‌‌‍‍‍‍‍
 
-11 Tell me a time when you dive deep
+11.Tell me a time when you dive deep
 
 
 --*:面试coding中可能会用到的:
