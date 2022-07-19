@@ -109,15 +109,26 @@ note: dive deep, different thoughts, new insight
 
 5. Tell me your most challenging project/ a time you solved a complex problem
 扣题，怎么复杂，是deadline 紧，还是技术复杂，你怎么做的，学习了新技术，use my priavte time to work on it 等等 最后说结果或者说通过这个process 你学到了什么
+The most challenging project is when I worked as a software engineer intern at TigerGraph. I'm responsible for an independent project and building a model directly from datapineline. I was given 3 days to finish this task. Not only the deadline is intense, but also I need to communicate with backend team to have the access to datapineline. Furthermore, to build a model can be split into several pieces such as data featuring, setting up framework, training and testing data, model building, model evaulation and finally model optimization and comparison. Both time and techniques are challenging for me. In order to finish this task, I use my private time to work on it. In order to deliver as soon as I can to meet customer's gola along with keep highest standards for this project, I talked with the backend team and use a different way of getting access to the datapineline in order to extract data which proves to be more efficient later. Furthermore, I approach a new framework to build model on this task. Eventually, the result works well in performance and I deliver the product that meets customer's expectation. Through this process,I not only learn new methods in machine learning field but also improve my communication skills and ear trust from other teams at TigerGraph.
 
+note: earn trust, new insight, obsess over customer
 
 
 6. Tell me a time when you missed deadline
 先介绍背景 解释为何会miss 你是怎么把损失降到最低的，最后结果是好的，影响不是很大
+ when I work collaboratively on a project with a different team that needs some permissions on a cloud server from the cloud team. The cloud team delays sending the permission for me to have access to the server which results in the dealy sending the products to the clients. Although the result went well, I addressed this issue by setting up a new serve that no need their token as well as keeping updating with the clients what's going on. At end of this issue, we still deliver the products to customer and keep the loss into lowest cost.
+ 
+ note: obsess over customer, ownership
+
 
 7. Biggest mistake or failure
 
+
+
 8. Tell me a time when you took on something significant outside your area of responsibility
+When I worked in the production team, I was asked to take charge a core algorithm task that from my departure teammate due to staff turnover. This core algorithm is something that completelly new to me. In order to develier successfully to customer, I spend my private time to dive deep,to understand and to learn this core algorithm. Meanwhile, I'm positively communicating with and doing knowledge transition with the teammate that is about to leave the company. Eventually, I delivered the product to the customer. Via this affair, I not only learn some new knowledges in algorithms but also being more confident to take down more challging tasks.
+
+note: communication, deliver, dive deep, ownership
 
 9. Tell me a time when you take caculated rist
 
@@ -157,6 +168,8 @@ I am very excited to have the opportunity to be interviewed here on Amazon.
 
 
 --*: source
+https://1o24bbs.com/t/topic/12295
+
 https://sugarac.gitbooks.io/high-frequency-interview-questions-and-answers/content/bq1.html
 
 https://www.1point3acres.com/bbs/thread-526088-1-1.html
